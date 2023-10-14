@@ -43,6 +43,15 @@ a:visited{
     margin-right: 30px;
     display: none;
 }
+
+#particles-js{
+    height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+  top:0;
+  left:0;
+}
 @media screen and (max-width: 768px) {
     .container{
         margin-top: 170px;
